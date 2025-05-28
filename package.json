@@ -1,8 +1,13 @@
 {
   "name": "shopify-bun",
+  "author": "Sid Newman",
   "module": "index.ts",
   "type": "module",
   "private": true,
+  "scripts": {
+    "dev": "bun build theme/index.ts --outdir=assets --watch",
+    "build": "bun build theme/index.ts --outdir=assets"
+  },
   "devDependencies": {
     "@types/bun": "latest"
   },
