@@ -5,8 +5,8 @@
   "type": "module",
   "private": true,
   "scripts": {
-    "dev": "bunx concurrently \"bun build theme/index.ts --outdir=assets --watch\" \"shopify theme dev --password=$THEME_ACCESS_PASSWORD\"",
-    "build": "bun build theme/index.ts --outdir=assets"
+    "dev": "bunx concurrently \"bun build theme/index.ts --outdir=assets --watch --target browser --minify\" \"shopify theme dev --password=$THEME_ACCESS_PASSWORD\"",
+    "build": "bun build theme/index.ts --outdir=assets --target browser --minify"
   },
   "devDependencies": {
     "@types/bun": "latest"
