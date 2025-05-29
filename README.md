@@ -19,7 +19,7 @@ THEME_ACCESS_PASSWORD=shptka_123abcxyz
 ```
 2. Get the deps by running ```bun i```
 
-3. Run ```bun dev``` then your theme will be up and runnign with a live compiler 🤖
+3. Run ```bun dev``` then your theme will be up and running with a live compiler 🤖
 
 Now you can also add any other lib / package from npm by running ```bun i package-name```
 
